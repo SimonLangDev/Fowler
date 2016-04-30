@@ -5,17 +5,17 @@ import static org.junit.Assert.*;
  * Created by SL-Th on 30.04.2016.
  */
 public class MovieTest {
-    Movie movie = new Movie("TestMovie", 50);
+    Movie movie = new Movie("TestMovie", 1);
 
     @Test
     public void getPriceCode() throws Exception {
-        assertEquals(movie.getPriceCode(), 50);
+        assertEquals(movie.getPriceCode(), 1);
     }
 
     @Test
     public void setPriceCode() throws Exception {
-        movie.setPriceCode(20);
-        assertEquals(movie.getPriceCode(), 20);
+        movie.setPriceCode(2);
+        assertEquals(movie.getPriceCode(), 2);
     }
 
     @Test
